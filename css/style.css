@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   /* navbar css start */
+
+.navbar-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(71, 69, 69);
+}
+.nav-logo{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    
+}
+.nav-links li{
+   color: white;
+   margin-right: 15px;
+   font-size: 18px;
+   font-weight: bold;
+}
+/* navbar css end */
+
+/* banner section css start */
+
+.banner-container{
+    display: flex;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-img{
+  width: 300px;
+}
+
+.btn{
+    padding: 15px;
+    color: rgb(252, 250, 247);
+    font-size: 13px;
+    font-weight: bold;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* banner section css end */
+/* about section css start */
+
+.about-main-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    font-size: 60px;
+    text-align: center;
+}
+.we-grow{
+    margin-bottom: 20px;
+}
+/* about section css end */
+
+/* service section css start */
+.Service-main-container{
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+.service-title{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.service-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.service{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.service h1, p{
+   margin-top: 10px;
+}
+
+.service-img{
+    width: 70px;
+}
+
+.service-btn{
+    padding: 8px 20px;
+    background-color: gray;
+    border: 0;
+    margin-top: 20px;
+}
+
+/* service section css end */
+/* footer css start */
+.footer{
+    background-color: rgb(12, 12, 12);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.footer-intro h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+}
+.footer-link{
+    list-style: none;
+
+}
+.footer-link h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 700px;
+    margin-left: 150px;
+    
+}
